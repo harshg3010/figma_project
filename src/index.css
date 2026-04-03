@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-links span {
+  margin-left: 32px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hero button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.features {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  width: 250px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
